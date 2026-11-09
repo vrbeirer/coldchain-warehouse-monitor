@@ -1,0 +1,4 @@
+pandas>=2.2
+numpy>=1.26
+faker>=25
+pydantic>=2.7
