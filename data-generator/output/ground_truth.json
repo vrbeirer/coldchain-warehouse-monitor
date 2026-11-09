@@ -1,0 +1,26 @@
+[
+  {
+    "case_id": "GT-001",
+    "record_id": "LOT-2026-000001",
+    "issue_type": "incompatible_zone_assignment",
+    "ground_truth": "Frozen goods must not be stored in ambient zone"
+  },
+  {
+    "case_id": "GT-002",
+    "record_id": "SNS-ZONE-WH-001-001-TEMP-01",
+    "issue_type": "unrationalized_multi_zone_sensor",
+    "ground_truth": "Effective-dated bridge rationale required"
+  },
+  {
+    "case_id": "GT-003",
+    "record_id": "SNS-ZONE-WH-001-001-TEMP-01",
+    "issue_type": "sensor_outage_misread",
+    "ground_truth": "Gap is an outage, not a steady value"
+  },
+  {
+    "case_id": "GT-004",
+    "record_id": "ALM-350001",
+    "issue_type": "unlinked_alarm",
+    "ground_truth": "Alarm must link every overlapping lot"
+  }
+]

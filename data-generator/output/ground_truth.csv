@@ -1,0 +1,5 @@
+case_id,record_id,issue_type,ground_truth
+GT-001,LOT-2026-000001,incompatible_zone_assignment,Frozen goods must not be stored in ambient zone
+GT-002,SNS-ZONE-WH-001-001-TEMP-01,unrationalized_multi_zone_sensor,Effective-dated bridge rationale required
+GT-003,SNS-ZONE-WH-001-001-TEMP-01,sensor_outage_misread,"Gap is an outage, not a steady value"
+GT-004,ALM-350001,unlinked_alarm,Alarm must link every overlapping lot
